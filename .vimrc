@@ -27,3 +27,6 @@ set hidden
 
 "turn on syntax highlighting
 syntax on
+
+"copy to clipboard
+vnoremap <C-C> :w !xclip -i -sel c<CR><CR>
